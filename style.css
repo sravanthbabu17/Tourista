@@ -427,44 +427,4 @@ html {
    }
  }
 
- .parallax,.description{
-  width: 100%;
-  min-height: 100vh;
-  position: relative;
- }
- .parallax,.description::before{
-  content:"" ;
-  width: 100%;
-  height: 100% ;
-  position: absolute;
-  background:url(imgs/japan-cover.jpg) top center;
-  background-size: cover;
-  transform: translateZ(-1px) scale(2.2);
-  filter: blur(2px);
- }
- .parallax::after{
-  content: "";
-  width:100% ;
-  height: 100%;
-  position: absolute;
-  background: url(imgs/japan backblur.png) top center;
-  background-size:cover;
- }
- .parallax.text{
-  top:10%;
-  transform: translateZ(-0.5px) scale(1.5,1.6) translate(-33%,10%);
- }
- .description{
-  background: hotpink;
- }
-.text{
-  top:30%;
-  left:50%;
-  position:absolute;
-  font-family: 'Franklin Gothic Heavy';
-  font-size: 15w;
-  color: azure;
-  text-shadow: 2px 2px 5px rgba(0, 0,0 ,3),5px 5px 70px rgba(255,255,255 ,0.5);
-  transform: scale(1,1.1) translate(-50%,10%);
-
-}
+ 
