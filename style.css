@@ -1,0 +1,253 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+    margin:0 ;
+}
+.home{
+    background-image: url("./imgs/home.avif");
+    height: 100vh;
+	background-size: cover;
+	background-position: center;
+	min-height: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 5px 1px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000;
+}
+.navbar-logo{
+    align-items: center;
+        margin-right: auto;
+        margin-left:20px ;
+}
+
+.navbar-logo h1 {
+    color:whitesmoke ;
+    font-size:35px;
+    font-family: 'lobster';
+    text-shadow: 1px 1px 1px black;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family:'poppins';
+}
+
+.navbar-menu li {
+    display: inline;
+}
+
+.navbar-menu a {
+    color: black ;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+a:after{
+    content: "";
+    position: absolute;
+      height: 3px;
+      width: 0%;
+      left:0;
+      bottom: -10px;
+      transition: 0.3s;
+   }
+   a:hover{
+       color:red;
+   }
+   a:hover::after{
+       width: 100%;
+   }
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: block;
+        text-align: right;
+    }
+}
+.btn {
+    position: relative;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.2em 1.1em; 
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 2em; 
+    transition: all 0.2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    overflow: hidden; 
+}
+
+
+.des {
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 0px;
+    border-radius: 0px;
+    margin-top: 0px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px  #333;
+}
+
+.des h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-left:45px ;
+}
+
+.des h3 {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    margin-top:225px ;
+    margin-left:45px ;
+    font-family: 'poppins';
+}
+
+
+.des p {
+    font-size: 1.2em;
+    margin-left:45px ;
+    line-height: 1.6;
+    font-family:'poppins' ;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 2s ease-in-out;
+    height: 100%;
+  }
+  
+  .slide {
+    min-width: 100%;
+    position: relative;
+    height: 100%;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: gold;
+    font-size: 7em;
+    text-shadow: 2px 2px 4px black;
+    transition: transform 0.3s ease;
+  }
+  
+  .text:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    z-index: 1000;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: darkgray;
+  }
+  
+  .prev {
+    left: 20px;
+  }
+  
+  .next {
+    right: 20px;
+  }
+
+  .about {
+    flex:1 ;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px black;
+    height:100vh;
+    text-align: justify;
+
+}
+body{
+    background-color:thistle;
+    overflow: hidden;
+}
+.about h2 {
+    text-align: center;
+    color: #333;
+}
+
+.about p {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.about img {
+    max-width: 100%;
+    height:300px;
+  padding: 0 100px;
+   
+    border-radius: 8px;
+}
+
+#contact {
+    flex:1 ;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px black;
+}
+
+#contact h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: #555;
+}
+
+.contact-info {
+    margin-top: 20px;
+    line-height: 1.6;
+}
