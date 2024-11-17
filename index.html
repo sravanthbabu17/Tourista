@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Tourista</title>
+       <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+       <div class="home" id="home">
+           <section>
+               <div class="navbar">
+                   <div class="navbar-logo">
+                       <h1>Tourista</h1>
+                   </div>
+                   <ul class="navbar-menu">
+                       <li><a href="#home">Home</a></li>
+                       <li><a href="#destination">Destination</a></li>
+                       <li><a href="#about">About</a></li>
+                       <li><a href="#contact">Contact</a></li>
+                       <li><button class="btn" onclick="redirectToLogin()">Login</button></li>
+                       <li><button class="btn" onclick="redirectToSignup()">Signup</button></li>
+                   </ul>
+               </div>
+           </section>
+           <div class="des">
+               <h3>Welcome To Tourista</h3>
+               <h1><b>Travel Far,<br>Dream Big!</b></h1>
+               <p>Explore the world's most breathtaking destinations,<br>where history and natural beauty come alive.<br>Uncover hidden gems and iconic landmarks that inspire<br>wanderlust in every traveler!</p>
+           </div>
+       </div>
+
+       <div id="destination" class="slider">
+        <div class="slides">
+            <div class="slide active">
+                    <img src="./imgs/1.jpeg" alt="India">
+                    <a href="india.html">
+                        <div class="text">India</div>
+                </a>
+            </div>
+            <div class="slide">
+                    <img src="./imgs/2.jpg" alt="Russia">
+                    <a href="Russia.html">
+                        <div class="text">Russia</div>
+                </a>
+            </div>
+            <div class="slide">
+                    <img src="./imgs/3.jpg" alt="France">
+                    <a href="France.html">
+                        <div class="text">France</div>
+                </a>
+            </div>
+            <div class="slide">
+                    <img src="./imgs/4.jpg" alt="dubai">
+                    <a href="Dubai.html">
+                        <div class="text">Dubai</div>
+                </a>
+            </div>
+            <div class="slide">
+                    <img src="./imgs/5.webp" alt="China">
+                    <a href="China.html">
+                        <div class="text">China</div>
+                </a>
+            </div>
+            <div class="slide">
+                    <img src="./imgs/6.jpg" alt="Japan">
+                    <a href="Japan.html">
+                        <div class="text">Japan</div>
+                </a>
+            </div>
+            <div class="slide">
+                    <img src="./imgs/7.jpg" alt="usa">
+                    <a href="USA.html">
+                        <div class="text">USA</div>
+                </a>
+            </div>
+            <div class="slide">
+                    <img src="./imgs/8.jpg" alt="Italy">
+                    <a href="Italy.html">
+                        <div class="text">Italy</div>
+                </a>
+            </div>
+            <div class="slide">
+                    <img src="./imgs/9.webp" alt="swiss">
+                    <a href="Switzerland.html">
+                        <div class="text">Switzerland</div>
+                </a>
+            </div>
+            <div class="slide">
+                    <img src="./imgs/10.jpg" alt="thailand">
+                    <a href="Thailand.html">  <div class="text">Thailand</div>
+                </a>
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <div class="about" id="about">
+        <h2>About Tourista</h2>
+        <p>Welcome to Tourista, your ultimate travel companion! We are dedicated to helping you explore the world's most breathtaking destinations. Our mission is to inspire wanderlust and provide you with the information you need to plan your next adventure.</p>
+        
+        <p>At Tourista, we believe that travel is not just about visiting new places, but about experiencing different cultures, meeting new people, and creating unforgettable memories. Whether you're looking for hidden gems or iconic landmarks, we've got you covered.</p>
+        
+        <p>Join us as we uncover the beauty of the world, one destination at a time. From the bustling streets of Tokyo to the serene landscapes of Switzerland, we aim to provide you with the best travel tips, guides, and inspiration.</p>
+        
+        <img src="./imgs/about.webp" alt="About Tourista" />
+        
+        <p>Thank you for choosing Tourista as your travel guide. We look forward to helping you embark on your next journey!</p>
+    </div>
+
+
+    <div class="contact-container" id="contact">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feel free to reach out to us!</p>
+
+        <div class="contact-info">
+            <p><strong>Phone Numbers:</strong></p>
+            <p>+91 98480 78902</p>
+            <p>+1 234 567 8902</p>
+
+            <p><strong>Email Addresses:</strong></p>
+            <p>contact@tourista.com</p>
+            <p>support@tourista.com</p>
+        </div>
+    </div>
+    
+   
+<script src="script.js"></script>
+
+</body>
+</html>
