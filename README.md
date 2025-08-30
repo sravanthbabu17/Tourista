@@ -2,7 +2,7 @@
 
 A clean and modern **frontend-only tourism website** showcasing beautiful travel destinations around the world.
 
-🔗 **Live Demo:** [https://sravanthbabu17.github.io/tourism/](https://sravanthbabu17.github.io/Tourista/)
+🔗 **Live Demo:** https://sravanthbabu17.github.io/Tourista/
 
 ---
 
