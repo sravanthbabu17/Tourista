@@ -2,7 +2,7 @@
 
 A clean and modern **frontend-only tourism website** showcasing beautiful travel destinations around the world.
 
-🔗 **Live Demo:** https://sravanthbabu17.github.io/tourism/
+🔗 **Live Demo:** [https://sravanthbabu17.github.io/tourism/](https://sravanthbabu17.github.io/Tourista/)
 
 ---
 
@@ -112,7 +112,7 @@ This project is open-source and available under the **MIT License**.
 **Sravanth Babu K**
 
 * GitHub: [@sravanthbabu17](https://github.com/sravanthbabu17)
-* Live Demo: [https://sravanthbabu17.github.io/tourism/](https://sravanthbabu17.github.io/tourism/)
+* Live Demo: https://sravanthbabu17.github.io/Tourista/
 
 ---
 
