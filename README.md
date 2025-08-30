@@ -19,16 +19,20 @@ A clean and modern **frontend-only tourism website** showcasing beautiful travel
 ## 📸 Screenshots
 
 ### 🏠 Home Page  
-![Home Page](https://i.imgur.com/7iJZzTg.png)
+<img width="975" height="518" alt="image" src="https://github.com/user-attachments/assets/ddc97e94-1100-4e88-8a69-e9bfe523a298" />
+
 
 ### 🌐 Destinations Overview  
-![Destinations](https://i.imgur.com/kpYfQ9Y.png)
+<img width="886" height="406" alt="image" src="https://github.com/user-attachments/assets/bc906080-be47-4ed1-a9b7-4e7f555a0507" />
+
+
+### About Page
+<img width="901" height="454" alt="image" src="https://github.com/user-attachments/assets/9ff726fa-fae8-4491-a7e7-264783933111" />
+
 
 ### 🇮🇳 India Page  
-![India](https://i.imgur.com/1hDQlzt.png)
+<img width="1071" height="569" alt="image" src="https://github.com/user-attachments/assets/760d3484-2072-4429-a06b-9c5d79f66ec2" />
 
-### 🇨🇭 Switzerland Page  
-![Switzerland](https://i.imgur.com/NnylTQw.png)
 
 > Other country pages (France, Japan, Dubai, USA, Thailand, Russia, China, Italy) follow a similar design with unique content for each destination.  
 
@@ -103,7 +107,7 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
-## 📧 Contact
+## 📧 Author
 
 **Sravanth Babu K**
 
